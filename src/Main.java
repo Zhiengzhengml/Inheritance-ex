@@ -8,7 +8,7 @@ public class Main {
         MusicConcertEvent musicconcertEvent = new MusicConcertEvent("002","bb","BB","mm",200,2,50);
         musicconcertEvent.calculateEventCost();
         System.out.println(musicconcertEvent);
-        String startDate = "2024-04-23";
+        String startDate = "2024-03-23";
         String endDate = "2024-03-25";
         LocalDate eventStartDate = LocalDate.parse(startDate);
         LocalDate eventEndDate = LocalDate.parse(endDate);
