@@ -1,4 +1,4 @@
-public class ConferenceEvent extends Event{
+public class ConferenceEvent extends Event implements CalculateEventCostInterface{
     private boolean breakfastRequired;
     private double breakfastCost;
     private boolean lunchRequired;

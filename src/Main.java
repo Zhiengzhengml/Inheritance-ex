@@ -13,7 +13,6 @@ public class Main {
         LocalDate eventStartDate = LocalDate.parse(startDate);
         LocalDate eventEndDate = LocalDate.parse(endDate);
         PastEvent pastEvent = new PastEvent("003","cc","CC","ll",50,3,eventStartDate,eventEndDate,"Paid",true);
-        pastEvent.calculateEventCost();
         pastEvent.setPaymentDetails("Paid",true);
         System.out.println(pastEvent);
     }

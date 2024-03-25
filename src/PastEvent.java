@@ -51,9 +51,6 @@ public class PastEvent extends Event {
         this.paymentDetails = "The event cost was " +  eventCost + " and the payment status is " + paymentStatus + 
         "\n" + "The Customer requires extension?: " + requiresExtension;
     }
-    
-    @Override
-    public void calculateEventCost(){}
 
     @Override
     public String toString() {
